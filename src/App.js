@@ -1,16 +1,19 @@
 import React from 'react';
 
 import './App.css';
+import { TodoApp } from './Todo';
 
-import { OneForm } from './components/OneForm';
 
-function App() {
-  return (
-    <div >
-      <OneForm placeholder="Add Todo Get Milk..." onSubmit={(text) => alert('your name is ' + text)}></OneForm>
-      
-    </div>
-  );
+class App extends React.Component{
+ 
+  render() {
+    return (
+      <div >
+        <TodoApp></TodoApp>
+      </div>
+    );
+  }
+  
 }
 
 export default App;
