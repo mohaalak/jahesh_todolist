@@ -1,0 +1,10 @@
+.my-button {
+  border: 1px solid black;
+  padding: 2px;
+  background: pink;
+  color: black;
+  cursor: pointer;
+}
+.my-button:hover {
+  background: white;
+}
